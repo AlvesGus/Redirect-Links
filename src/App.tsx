@@ -2,6 +2,7 @@ import gustavo from './assets/gustavo.jpg'
 import { Globe } from './components/website'
 import { Linkedin } from './components/linkedin'
 import { GitHub } from './components/github'
+import { Footer } from './components/footer'
 
 export default function App() {
   return (
@@ -20,9 +21,10 @@ export default function App() {
        <Linkedin/>
        <Globe/>
       </div>
+      <Footer/>  
       </div>
 
-    
+      
     </div>
   )
 }
